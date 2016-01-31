@@ -1,2 +1,2 @@
 # PodWeb
-React web client for UrbanPod.
+Web client for UrbanPod.

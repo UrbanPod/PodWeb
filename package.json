@@ -1,0 +1,27 @@
+{
+  "name": "pod-web",
+  "version": "1.0.0",
+  "description": "Web client for UrbanPod",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UrbanPod/PodWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UrbanPod/PodWeb/issues"
+  },
+  "homepage": "https://github.com/UrbanPod/PodWeb#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "karma": "^0.13.19",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "cerialize": "^0.1.3"
+  }
+}
