@@ -18,9 +18,10 @@
   "devDependencies": {
     "browserify": "^13.0.0",
     "gulp": "^3.9.0",
-    "gulp-typescript": "^2.10.0",
     "karma": "^0.13.19",
-    "vinyl-source-stream": "^1.1.0"
+    "tsify": "^0.13.2",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
   },
   "dependencies": {
     "cerialize": "^0.1.3"

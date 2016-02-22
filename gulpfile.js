@@ -1,15 +1,24 @@
 var gulp = require('gulp');
 var source = require('vinyl-source-stream');
 var browserify = require('browserify');
-var ts = require('gulp-typescript');
+var tsify = require('tsify');
+var watchify = require('watchify');
+
 var tsconfig = require('./tsconfig');
 
-gulp.task("experiment", function() {
-  console.log(tsconfig.compileOnSave);
-});
-
 gulp.task("build:js", function() {
-  var tsProject = ts.createProject();
+  return browserify({
+    basedir: "src/js",
+    cache: {},
+    packageCache: {}
+  })
+    .add("index.ts")
+    // .plugin(watchify)
+    .plugin(tsify)
+    .bundle()
+    .on('error', function (error) { console.error(error.toString()); })
+    .pipe(source("index.js"))
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task("test", function() {
