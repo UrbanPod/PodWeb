@@ -17,9 +17,14 @@
   "homepage": "https://github.com/UrbanPod/PodWeb#readme",
   "devDependencies": {
     "browserify": "^13.0.0",
+    "callsite": "^1.0.0",
     "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
     "karma": "^0.13.19",
+    "lodash": "^4.5.1",
     "tsify": "^0.13.2",
+    "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
   },

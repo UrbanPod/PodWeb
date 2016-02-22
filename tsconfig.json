@@ -17,7 +17,8 @@
     "src/js/components/navbar/directive_navbar.ts",
     "src/js/index.ts",
     "src/js/utils/angular_wrappers/to_directive.ts",
-    "src/js/utils/angular_wrappers/to_factory.ts"
+    "src/js/utils/angular_wrappers/to_factory.ts",
+    "src/js/utils/path_provider.ts"
   ],
   "atom": {
     "rewriteTsconfig": true
