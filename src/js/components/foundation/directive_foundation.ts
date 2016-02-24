@@ -3,11 +3,7 @@ import { getPath } from "../../utils/path_provider";
 declare var __filename : any;
 declare var __dirname : any;
 
-class DirectiveFoundation {
-  constructor() {
-    console.log("Hello world!");
-  }
+class DirectiveNavbar {
 }
 
-console.log(getPath());
-toDirective("directiveFoundation", "js/components/foundation/directive_foundation.html", DirectiveFoundation);
+toDirective("directiveNavbar", "js/components/navbar/directive_navbar.html", DirectiveNavbar);
