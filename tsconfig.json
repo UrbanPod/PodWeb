@@ -13,10 +13,12 @@
     "!node_modules/**"
   ],
   "files": [
+    "src/js/components/community/directive_community.ts",
     "src/js/components/foundation/directive_foundation.ts",
     "src/js/components/navbar/directive_navbar.ts",
     "src/js/components/user/directive_user.ts",
     "src/js/index.ts",
+    "src/js/routing/router.ts",
     "src/js/utils/angular_wrappers/to_directive.ts",
     "src/js/utils/angular_wrappers/to_factory.ts",
     "src/js/utils/path_provider.ts"
